@@ -19,3 +19,5 @@ area()
 factorial()
 
 evenOdd()
+
+binarytodecimal()
