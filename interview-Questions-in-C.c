@@ -1,6 +1,6 @@
 // Online C compiler to run C program online
 #include <stdio.h>
-
+#include <math.h>//for power function
 int main() {
     void fibonaci(){
     int n = 7;
@@ -142,7 +142,24 @@ int main() {
             printf("%d is Odd number",n);
         }
     }
-    //evenOdd();
+    //Binary to decimal
+    
+    long n = 111;
+    
+    int binarytodecimal(int n){
+    int rem,i=0,dc=0;
+    
+    while(n!=0){
+        rem = n%10;
+        n=n/10;
+        dc = dc+rem*pow(2,i);
+        i++;
+        
+    }
+    return dc;
+}
+    printf("l%d",binarytodecimal(n));
+    
     
     
     
