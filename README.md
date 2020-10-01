@@ -21,3 +21,5 @@ factorial()
 evenOdd()
 
 binarytodecimal()
+
+LeapYear()
